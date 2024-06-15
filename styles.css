@@ -1,0 +1,55 @@
+*,
+*:before,
+*:after {
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
+}
+
+.Each-Accordian {
+  border: 2px solid red;
+  margin: 1rem;
+}
+
+.Faq-Div {
+  border: 1px solid green;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Faq-Header {
+  margin: 1rem;
+  margin-bottom: 0rem;
+}
+
+.answer {
+  margin: 1.25rem 0rem;
+  display: none;
+}
+
+.Each-Accordian {
+  position: relative;
+}
+
+.show-img,
+.collapse-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+}
+
+.collapse-img {
+  display: none;
+}
+
+.show-img:hover,
+.collapse-img:hover {
+  cursor: pointer;
+}
+
+.question {
+  font-weight: bold;
+}
